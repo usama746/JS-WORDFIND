@@ -1,0 +1,48 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  font-size: 60px;
+}
+
+#display {
+  width: 67vw;
+  height: 100px;
+  padding: 24px;
+  margin: 16px;
+  font-size: 4vh;
+  font-weight: bold;
+  border: 8px solid;
+  border-radius: 8px;
+}
+
+.row1,
+.row2,
+.row3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.key {
+  width: 6vw;
+  height: 6vh;
+  margin: 4px;
+  text-align: center;
+  align-content: center;
+  background-color: black;
+  color: white;
+  font-size: 4vh;
+  font-weight: bold;
+  border-radius: 4px;
+}
